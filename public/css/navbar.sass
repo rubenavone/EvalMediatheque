@@ -2,15 +2,26 @@
     width: 200px
     height: 200px
     border-radius: 100%
-    background-color: black
-    margin-top: -150px
+    background-color: $second-color
+    margin-top: -100px
 
 nav 
-    width: 50%
+    width: 35%
     margin: auto
     ul 
         display: flex
         flex-direction: row
         li
             display: inline
-    
+            padding: 20px 10px 0 0
+            a 
+                text-decoration: unset
+                color: black
+                &:hover 
+                    text-decoration: underline
+                &:visited
+                    text-decoration: underline
+                    color: black
+    p 
+        line-height: 55px   
+        margin-right: 10px 

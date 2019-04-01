@@ -2,17 +2,80 @@
   width: 200px;
   height: 200px;
   border-radius: 100%;
-  background-color: black;
-  margin-top: -150px; }
+  background-color: #2e508a;
+  margin-top: -100px; }
 
 nav {
-  width: 50%;
+  width: 35%;
   margin: auto; }
   nav ul {
     display: flex;
     flex-direction: row; }
     nav ul li {
-      display: inline; }
+      display: inline;
+      padding: 20px 10px 0 0; }
+      nav ul li a {
+        text-decoration: unset;
+        color: black; }
+        nav ul li a:hover {
+          text-decoration: underline; }
+        nav ul li a:visited {
+          text-decoration: underline;
+          color: black; }
+  nav p {
+    line-height: 55px;
+    margin-right: 10px; }
+
+footer {
+  background: linear-gradient(black, #2e508a); }
+  footer ul {
+    display: grid;
+    grid-template-columns: 2fr 5fr; }
+    footer ul .navigation {
+      display: flex;
+      flex-direction: row; }
+      footer ul .navigation li {
+        display: flex;
+        flex-direction: row;
+        font-size: 25px;
+        z-index: 1000;
+        list-style: none;
+        margin: 0; }
+        footer ul .navigation li a {
+          text-decoration: underline overline white;
+          color: white; }
+        footer ul .navigation li:hover {
+          text-decoration: underline overline black; }
+        footer ul .navigation li:visited {
+          text-decoration: underline;
+          color: black; }
+    footer ul .row-reverse {
+      display: flex;
+      flex-direction: row-reverse; }
+      footer ul .row-reverse i {
+        font-size: 40px;
+        color: white;
+        margin-right: 15px; }
+      footer ul .row-reverse i:hover {
+        transform: scale(0.98);
+        color: black;
+        transition: all 0.5s ease-in-out; }
+
+main {
+  width: 100%;
+  min-height: 615px;
+  background-color: black;
+  margin-top: -50px; }
+  main p {
+    color: white;
+    font-size: 125px;
+    position: absolute;
+    bottom: 10;
+    line-height: 130px; }
+
+.text-design {
+  color: black;
+  background-color: white; }
 
 * {
   margin: 0; }
