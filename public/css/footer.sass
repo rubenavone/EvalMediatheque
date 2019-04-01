@@ -2,10 +2,11 @@ footer
     background: linear-gradient(black, $second-color)
     ul 
         display: grid
-        grid-template-columns: 2fr 5fr
+        grid-template-columns: 3fr 1fr
         .navigation
             display: flex
             flex-direction: row
+            justify-content: space-between
             li 
                 display: flex
                 flex-direction: row
@@ -13,6 +14,8 @@ footer
                 z-index: 1000
                 list-style: none
                 margin: 0
+                padding-left: 20px
+                padding-top: 10px
                 a 
                     text-decoration: underline overline white
                     color: white
@@ -27,8 +30,18 @@ footer
             i 
                 font-size: 40px
                 color: white
-                margin-right: 15px    
-            i:hover
-                transform: scale(0.98)
-                color: black
-                transition: all 0.5s ease-in-out
+                margin-right: 15px
+                transition: all 1s ease-in-out
+
+        
+.fa-pinterest:hover
+    transition: all 0.5s ease-in-out
+    color: #bd081c
+    
+.fa-facebook-f:hover
+    transition: all 0.5s ease-in-out
+    color: #3b5998
+
+.fa-twitter:hover
+    transition: all 0.5s ease-in-out
+    color: #2591f6

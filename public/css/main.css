@@ -1,3 +1,10 @@
+@keyframes slide-out-opacity {
+  0%;
+  margin-left: 0;
+  opacity: 1;
+  100%;
+  margin-left: 200px;
+  opacity: 0; }
 .rond {
   width: 200px;
   height: 200px;
@@ -30,17 +37,20 @@ footer {
   background: linear-gradient(black, #2e508a); }
   footer ul {
     display: grid;
-    grid-template-columns: 2fr 5fr; }
+    grid-template-columns: 3fr 1fr; }
     footer ul .navigation {
       display: flex;
-      flex-direction: row; }
+      flex-direction: row;
+      justify-content: space-between; }
       footer ul .navigation li {
         display: flex;
         flex-direction: row;
         font-size: 25px;
         z-index: 1000;
         list-style: none;
-        margin: 0; }
+        margin: 0;
+        padding-left: 20px;
+        padding-top: 10px; }
         footer ul .navigation li a {
           text-decoration: underline overline white;
           color: white; }
@@ -55,27 +65,59 @@ footer {
       footer ul .row-reverse i {
         font-size: 40px;
         color: white;
-        margin-right: 15px; }
-      footer ul .row-reverse i:hover {
-        transform: scale(0.98);
-        color: black;
-        transition: all 0.5s ease-in-out; }
+        margin-right: 15px;
+        transition: all 1s ease-in-out; }
+
+.fa-pinterest:hover {
+  transition: all 0.5s ease-in-out;
+  color: #bd081c; }
+
+.fa-facebook-f:hover {
+  transition: all 0.5s ease-in-out;
+  color: #3b5998; }
+
+.fa-twitter:hover {
+  transition: all 0.5s ease-in-out;
+  color: #2591f6; }
 
 main {
+  display: flex;
+  flex-direction: row;
   width: 100%;
-  min-height: 615px;
+  min-height: 611px;
   background-color: black;
-  margin-top: -50px; }
-  main p {
-    color: white;
-    font-size: 125px;
-    position: absolute;
-    bottom: 10;
-    line-height: 130px; }
+  margin-top: -50px;
+  transition: all 2s linear; }
+
+.home-paragraphe {
+  color: white;
+  font-size: 125px;
+  position: absolute;
+  bottom: 10;
+  line-height: 130px; }
 
 .text-design {
   color: black;
-  background-color: white; }
+  background-color: white;
+  text-shadow: 2px 2px 5px black; }
+
+.text-out {
+  text-shadow: 0 0 3px white; }
+
+.home-rand {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  height: 400px;
+  margin-left: 60%;
+  margin-top: 5%; }
+
+section figure {
+  width: 200px;
+  height: 400px;
+  background-color: white;
+  margin: auto;
+  border: 2px dashed black; }
 
 * {
   margin: 0; }

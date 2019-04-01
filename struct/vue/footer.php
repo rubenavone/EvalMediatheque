@@ -3,6 +3,7 @@
 
         <section class="navigation">
         <li><a href="">Contact</a></li>
+        <li><a href="">Mention légales</a></li>
         <li><a href="">Nous trouver</a></li>
         </section>
 

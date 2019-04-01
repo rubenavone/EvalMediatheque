@@ -8,17 +8,17 @@ Suivis de sortie.
 
 Récupération des information via une api google book
 
-Livrable
+## Livrable
 
-Wireframe
-Conception BDD (mcd)
-Conception de l'appli en uml
-Mettre le site en ligne sur le serveur personel
-Envoyer fréquement les update sur github
+- Wireframe
+- Conception BDD (mcd)
+- Conception de l'appli en uml
+- Mettre le site en ligne sur le serveur personel
+- Envoyer fréquement les update sur github
 
-Choix dand les techs:
+## Choix dand les techs:
 
-HTML/CSS;
-JavaScript;
-PHP;
-sql avec xampp (mariaDB);
+- HTML/CSS;
+- JavaScript;
+- PHP;
+- sql avec xampp (mariaDB);
