@@ -1,26 +1,31 @@
 @keyframes slide-out-opacity {
-  0%;
-  margin-left: 0;
-  opacity: 1;
-  100%;
-  margin-left: 200px;
-  opacity: 0; }
+  0% {
+    width: 621px; }
+  100% {
+    width: 0px; } }
 .rond {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 100%;
   background-color: #2e508a;
-  margin-top: -100px; }
+  margin-top: -75px;
+  overflow: hidden; }
+  .rond img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: right; }
 
 nav {
   width: 35%;
-  margin: auto; }
+  margin: auto;
+  height: 15vh; }
   nav ul {
     display: flex;
     flex-direction: row; }
     nav ul li {
       display: inline;
-      padding: 20px 10px 0 0; }
+      padding: 40px 10px 0 0; }
       nav ul li a {
         text-decoration: unset;
         color: black; }
@@ -30,11 +35,12 @@ nav {
           text-decoration: underline;
           color: black; }
   nav p {
-    line-height: 55px;
+    line-height: 90px;
     margin-right: 10px; }
 
 footer {
-  background: linear-gradient(black, #2e508a); }
+  background: linear-gradient(black, #2e508a);
+  height: 5vh; }
   footer ul {
     display: grid;
     grid-template-columns: 3fr 1fr; }
@@ -84,7 +90,7 @@ main {
   display: flex;
   flex-direction: row;
   width: 100%;
-  min-height: 611px;
+  min-height: 85.7vh;
   background-color: black;
   margin-top: -50px;
   transition: all 2s linear; }
@@ -117,9 +123,21 @@ section figure {
   height: 400px;
   background-color: white;
   margin: auto;
+  margin-top: 150px !important;
   border: 2px dashed black; }
 
-* {
-  margin: 0; }
+.white-block {
+  width: 621px;
+  height: 400px;
+  background-color: white;
+  animation: slide-out-opacity 4s 1s forwards;
+  position: absolute; }
+
+*, html, body {
+  margin: 0;
+  padding: 0; }
+
+body {
+  height: 100vh; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,4 +1,5 @@
 <main>
+    <div class="white-block"></div>
     <section class="home-rand">
         <figure>
             <img src="" alt="">
