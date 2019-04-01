@@ -16,3 +16,9 @@ Conception de l'appli en uml
 Mettre le site en ligne sur le serveur personel
 Envoyer fréquement les update sur github
 
+Choix dand les techs:
+
+HTML/CSS;
+JavaScript;
+PHP;
+sql avec xampp (mariaDB);
