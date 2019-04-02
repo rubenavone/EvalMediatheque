@@ -2,9 +2,9 @@
     <ul>
 
         <section class="navigation">
-        <li><a href="">Contact</a></li>
-        <li><a href="">Mention légales</a></li>
-        <li><a href="">Nous trouver</a></li>
+        <li><a href="?loc=contacter">Contact</a></li>
+        <li><a href="?loc=mention">Mention légales</a></li>
+        <li><a href="?loc=nous-trouver">Nous trouver</a></li>
         </section>
 
         <section class="row-reverse">

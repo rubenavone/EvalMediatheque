@@ -41,7 +41,7 @@ nav {
 
 footer {
   background: linear-gradient(black, #2e508a);
-  height: 5vh; }
+  height: 6.1vh; }
   footer ul {
     display: grid;
     grid-template-columns: 3fr 1fr; }
@@ -91,7 +91,7 @@ main {
   display: flex;
   flex-direction: row;
   width: 100%;
-  min-height: 87vh;
+  min-height: 86vh;
   background-color: black;
   margin-top: -50px;
   transition: all 2s linear; }
@@ -117,7 +117,8 @@ main {
   width: 600px;
   height: 400px;
   margin-left: 60%;
-  margin-top: 5%; }
+  margin-top: 5%;
+  column-gap: 20px; }
 
 section figure {
   width: 200px;
@@ -125,7 +126,12 @@ section figure {
   background-color: white;
   margin: auto;
   margin-top: 100px !important;
-  border: 2px dashed black; }
+  border: 1px dashed black;
+  overflow: hidden; }
+  section figure img {
+    width: 200px;
+    height: 400px;
+    object-fit: cover; }
 
 .white-block {
   width: 621px;
@@ -135,7 +141,7 @@ section figure {
   position: absolute; }
 
 .book {
-  min-height: 79.9vh;
+  min-height: 79vh;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -152,7 +158,7 @@ section figure {
     background-color: black; }
 
 #my-account {
-  min-height: 80vh;
+  min-height: 86vh;
   display: grid;
   grid-template-columns: 1fr 1fr; }
   #my-account section {
@@ -175,6 +181,12 @@ section figure {
 .user-spec input[type="submit"] {
   width: 50%;
   margin: auto; }
+
+.error {
+  color: white;
+  font-size: 200px;
+  text-align: center;
+  margin-top: 100px; }
 
 *, html, body {
   margin: 0;
