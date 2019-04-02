@@ -1,0 +1,17 @@
+.book
+    min-height: 79.9vh
+    display: grid
+    grid-template-columns: repeat(5 , 1fr)
+    grid-template-rows: repeat(2 , 1fr)
+    width: 100%
+    z-index: -10
+    margin: auto
+    article
+        width: 250px
+        height: 250px
+        margin: auto
+    article:nth-child(odd)
+        background-color: grey 
+    article:nth-child(even)
+        background-color: black
+    

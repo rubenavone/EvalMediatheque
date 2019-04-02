@@ -3,19 +3,6 @@
     width: 621px; }
   100% {
     width: 0px; } }
-.rond {
-  width: 250px;
-  height: 250px;
-  border-radius: 100%;
-  background-color: #2e508a;
-  margin-top: -75px;
-  overflow: hidden; }
-  .rond img {
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-    object-position: right; }
-
 nav {
   width: 35%;
   margin: auto;
@@ -37,6 +24,20 @@ nav {
   nav p {
     line-height: 90px;
     margin-right: 10px; }
+
+.rond {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  background-color: #2e508a;
+  margin-top: -75px;
+  overflow: hidden;
+  z-index: 1000; }
+  .rond img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: right; }
 
 footer {
   background: linear-gradient(black, #2e508a);
@@ -90,7 +91,7 @@ main {
   display: flex;
   flex-direction: row;
   width: 100%;
-  min-height: 85.7vh;
+  min-height: 87vh;
   background-color: black;
   margin-top: -50px;
   transition: all 2s linear; }
@@ -123,7 +124,7 @@ section figure {
   height: 400px;
   background-color: white;
   margin: auto;
-  margin-top: 150px !important;
+  margin-top: 100px !important;
   border: 2px dashed black; }
 
 .white-block {
@@ -132,6 +133,48 @@ section figure {
   background-color: white;
   animation: slide-out-opacity 4s 1s forwards;
   position: absolute; }
+
+.book {
+  min-height: 79.9vh;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  z-index: -10;
+  margin: auto; }
+  .book article {
+    width: 250px;
+    height: 250px;
+    margin: auto; }
+  .book article:nth-child(odd) {
+    background-color: grey; }
+  .book article:nth-child(even) {
+    background-color: black; }
+
+#my-account {
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+  #my-account section {
+    width: 30vw;
+    min-height: 100%;
+    margin: auto; }
+  #my-account .user-spec {
+    background-color: white; }
+    #my-account .user-spec form {
+      display: flex;
+      flex-direction: column;
+      margin: 100px 0 0 0; }
+      #my-account .user-spec form label {
+        margin: 0 0 10px 0; }
+        #my-account .user-spec form label input {
+          margin: auto; }
+  #my-account .read-recently {
+    background-color: grey; }
+
+.user-spec input[type="submit"] {
+  width: 50%;
+  margin: auto; }
 
 *, html, body {
   margin: 0;

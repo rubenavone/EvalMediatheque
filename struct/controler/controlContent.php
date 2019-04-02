@@ -9,20 +9,17 @@ switch ($loc) {
         case "monCompte":
                 $fileName .= "monCompte";
                 break;
-        case "livres":
-                $fileName .= "livres";
-                break;
-        case "musiques":
-                $fileName .= "musiques";
-                break;
-        case "film":
-                $fileName .= "film";
+        case "products":
+                $fileName .= "products";
                 break;
         case "trouver":
                 $fileName .= "trouver";
                 break;
         case "contact":
                 $fileName .= "contact";
+                break;
+        case "compte":
+                $fileName .= "compte";
                 break;
         default:
                 $fileName .= "404";
