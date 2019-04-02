@@ -50,8 +50,6 @@ footer {
       flex-direction: row;
       justify-content: space-between; }
       footer ul .navigation li {
-        display: flex;
-        flex-direction: row;
         font-size: 25px;
         z-index: 1000;
         list-style: none;
@@ -187,6 +185,19 @@ section figure {
   font-size: 200px;
   text-align: center;
   margin-top: 100px; }
+
+.one-product {
+  margin: auto; }
+  .one-product article {
+    width: 1400px;
+    height: 400px;
+    background-color: white; }
+    .one-product article figure {
+      margin: unset;
+      border: none; }
+      .one-product article figure img {
+        height: 100%;
+        object-fit: cover; }
 
 *, html, body {
   margin: 0;

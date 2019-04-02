@@ -2,15 +2,15 @@
     <div class="white-block"></div>
     <section class="home-rand">
         <figure>
-            <a href="?loc=livre&id=1"><img src="img/mutafukaz.jpg" alt=""></a>
+            <a href="?loc=product&id=1"><img src="img/1.jpg" alt=""></a>
             <figcaption>Eventullement la description</figcaption>
         </figure>
         <figure>
-            <a href="?loc=livre&id=1"><img src="img/donjon.jpg" alt=""></a>
+            <a href="?loc=product&id=2"><img src="img/2.jpg" alt=""></a>
             <figcaption>Eventullement la description</figcaption>
         </figure>
         <figure>
-            <a href="?loc=livre&id=1"><img src="img/kevin.jpg" alt=""></a>
+            <a href="?loc=product&id=3"><img src="img/3.jpg" alt=""></a>
             <figcaption>Eventullement la description</figcaption>
         </figure>
     </section>

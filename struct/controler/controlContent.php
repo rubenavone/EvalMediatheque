@@ -12,6 +12,9 @@ switch ($loc) {
         case "products":
                 $fileName .= "products";
                 break;
+        case "product":
+                $fileName .= "product";
+                break;
         case "trouver":
                 $fileName .= "trouver";
                 break;
